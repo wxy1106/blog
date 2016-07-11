@@ -9,7 +9,7 @@
 ### END INIT INFO
 
 
-APP_ROOT="/home/fangxiang/blog"
+APP_ROOT="/home/www-data/myblog"
 DAEMON_OPTS="-c $APP_ROOT/config/unicorn.rb -E production"
 PID_PATH="$APP_ROOT/tmp/pids"
 UNICORN_PID="$PID_PATH/unicorn.pid"
